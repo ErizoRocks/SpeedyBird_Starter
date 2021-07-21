@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clumsy Bird Game</title>
+    <link href="../static/style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body >
+  <div class="container">
+		<nav>  
+			<ul> 
+				<li> <a href="/"> Game </a> </li>
+				<li>  Statistics </li>
+				<li> <a href="/graph"> Progress Graph </a> </li>
+			</ul>
+		</nav>
+
+		<div>
+		<h1> Your Skill Stats</h1>
+      <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lowest Score: </td>
+                        <td>{{low}}</td>
+                    </tr>
+                    <tr>
+                        <td>Highest Score: </td>
+                        <td>{{high}}</td>
+                    </tr>
+                    <tr>
+                        <td>Average Score: </td>
+                        <td>{{avg}}</td>
+                    </tr>
+                    <tr>
+                        <td>Number of game played: </td>
+                        <td>{{number}}</td>
+                    </tr>
+                </tbody>
+            </table>
+	  </div>
+
+  </div>
+</body>
+</html>

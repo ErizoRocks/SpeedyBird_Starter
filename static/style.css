@@ -1,0 +1,62 @@
+
+body {
+	background-color: lightblue;
+	font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+	color: orange;
+	font-family: "Times New Roman", serif;
+}
+
+
+nav ul {
+	background-color: tomato;
+	border: 2px solid red;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: purple;
+}
+
+nav ul a:hover {
+	color: yellow;
+}
+
+.container {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5px;
+	margin-top: 1px;
+}
+
+
+table {
+	width:30%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px black solid;
+	padding: 10px;
+}
+
+th {
+	background-color: lightblue;
+	color: black;
+}
+
+td {
+	font-size: 15px;
+}
